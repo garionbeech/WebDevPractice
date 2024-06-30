@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="EN-US">
+<body style="background-color: rgb(228, 228, 207);"></body>
+
+<head>
+    <title>HTML PRACTICE</title>
+</head>
+
+<body>
+    <body style="text-align: center;"></body>
+    <hr></hr>
+        <h1>The first HTML practice local web page</h1>
+
+        <p title="The first line written">The beginning of a long development journey</p>
+
+        <p1 style="color:green;">Writing html code for practice in VSCode</p1>
+    
+    <br></br> 
+    <!-- first link, inbedded in a button onclick event -->
+    <button style="color: blue" onclick="window.location.href='https://www.w3schools.com/html/';">
+        Click here for the W3Schools HTML Content</button>  
+        
+    <hr></hr>
+        <h2>The second heading in this html code</h2>
+
+
+     <p2 style="color:tomato;"> The next paragraph in this html code, following the second heading.</p2>
+    <!-- second link -->
+        <p><a href="https://www.w3schools.com/html/default.asp">The W3Schools html course content can be found here</a></p>
+
+     <p style="color:rgb(204, 43, 123);">This is where you currently are in the W3Schools html course:
+        <hr></hr>
+
+        <br></br><img src="W3SchoolsScreenShot.jpg" alt="W3Schools HTML Section Screenshot"
+            width="800" height="600">
+    </p>
+
+    <p><button style="color: red" onclick="window.location.href='https://store.steampowered.com/';">
+        Click this button to go to steam </button></p>
+    <hr></hr>
+    <p>Practice Table</p>
+    <table>
+        <tr>
+            <th style="color: blue">Company</th>
+            <th style="color: blue">Country</th>
+            <th style="color: blue">Contact</th>
+            <tr>
+                <td style="color: green">C1</td>
+                <td style="color: green">UK</td>
+                <td style="color: green">Dude Dudeson</td>
+                
+            </tr>
+            <tr>
+                <td style="color: purple">C2</td>
+                <td style="color: purple">Holland</td>
+                <td style="color: purple">Cool McCoolsen</td>
+            <tr>
+                <td style="color: maroon">C3</td>
+                <td style="color: maroon">Germany</td>
+                <td style="color: maroon">Sheep Van der Sheepson</td>
+                    
+            </tr>
+                
+            </tr>
+        </tr>
+    </table>
+
+    <hr></body>
+    <h style="color: magenta">Introducing JavaScript into the equation</h>
+
+    <p id="test"> This text will change</p>
+
+    <button style="color: red" type="button" onclick="document.getElementById ('test').innerHTML 
+    = 'It has changed to this text!'">  Click here to change text </button>
+   <hr></hr>
+
+    <p>Try to turn the light bulb on and Off</p>
+    
+
+    <button onclick="document.getElementById('myImage').src='BulbOn.png'">Turn on the light</button>
+    
+    <img id="myImage" 
+    src="BulbOff.png" 
+    style="width:100px"
+    alt="Light Bulb on and Off demonstration">
+
+    <button onclick="document.getElementById('myImage').src='BulbOff.png'">Turn off the light</button>
+
+    <hr></hr>
+
+        <p>Choose an animal</p>
+
+        <img id="animalImage"
+        src="SharkIMAGE.png"
+        style="width:100px"
+        alt="Animals">
+    <br></br>
+        <button onclick="document.getElementById('animalImage').src='LionIMAGE.png'">Change to Lion</button>
+    <br></br>
+
+        <button onclick="document.getElementById('animalImage').src='SharkIMAGE.png'">Change to Shark</button>
+    <br></br>
+ 
+        <button onclick="document.getElementById('animalImage').src='BearIMAGE.png'">Change to Bear</button>
+
+    <hr></hr>
+    <section>
+
+        <h3>Web Form and Buttons and Lists and Such</h3>
+
+            <h4>History of the Springboks in Rugby World cups</h4>
+            <img src="WorldcupandBall.jpg" alt="Rugby World Cup Next to a rugby ball">
+            <br></br>
+            <p>The South African national rugby team (Springboks) has set the record for winning
+                4 world cups. 
+            </p>
+            <p>They have won the world cup in the following years (in order):</p>
+            <ul>
+            <li>1995</li>
+            <li>2007</li>
+            <li>2019</li>
+            <li>2023</li></ul>
+
+                <img id="rugby"
+                src="Springboks1995.jpg"
+                style="width: 500px"
+                style="height: 300px"
+                alt="Springboks">
+                <br></br>
+
+            <button style="color: green" onclick="document.getElementById('rugby').
+            src='Springboks1995.jpg'">Springboks (South Africa) 1995</button>
+            <br></br>
+            <button style="color: green" onclick="document.getElementById('rugby').
+            src='Springboks2007.jpg'">Springboks (France) 2007</button>
+            <br></br>
+            <button style="color: green" onclick="document.getElementById('rugby').
+            src='Springboks2019.jpg'">Springboks (Japan) 2019</button>
+            <br></br>
+            <button style="color: green" onclick="document.getElementById('rugby').
+            src='Springboks2023.jpg'">Springboks (France) 2023</button>
+
+    </section>
+    <hr></hr>
+    <section>
+
+        <h2>The scorelines for each world cup final</h2>
+
+        <table>
+            <tr>
+                <p>Trying to make a table with dividng lines</p>
+                <th style="color: green; ">| Year |</th>
+                <th style="color: green; "> Opponent |</th>
+                <th style="color: green; "> Score For |</th>
+                <th style="color: green; "> Score Against |</th>
+                <th style="color: green; "> Tries Scored |</th>
+                <th style="color: green; "> Penalties Scored |</th>
+                <th style="color: green; "> Conversions Successful |</th>
+                
+            </tr>
+
+        </table>
+
+    </section>
+
+    <section>
+        <hr>
+        <legend>What was your favorite Springbok World Cup win?</legend>
+        <br>
+            <input id="1995" type="checkbox" name="1995"><label for="1995">1995</label>
+            <br>
+            <input id="2007" type="checkbox" name="2007"><label for="2007">2007</label>
+            <br>
+            <input id="2019" type="checkbox" name="2019"><label for="2019">2019</label>
+            <br>
+            <input id="2023" type="checkbox" name="2023"><label for="2023">2023</label>
+
+
+    </section>
+    
+    
+    
+
+</body>
+
+</html>
